@@ -64,12 +64,12 @@ export const Carousel: React.FC<Props> = ({
 
   return (
     <div
-      className={`max-w-4xl mx-auto mt-5 mb-5 ${className}`}
+      className={`max-w-6xl mx-auto mt-5 mb-5 ${className}`}
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      <div className="relative overflow-hidden rounded-lg">
-        <div className="relative h-64 sm:h-80 md:h-96">
+      <div className="relative overflow-hidden rounded-lg  ">
+        <div className="relative h-64 sm:h-80 md:h-96 ">
           {slides.map((s, i) => {
             const visible = i === index;
             return (
