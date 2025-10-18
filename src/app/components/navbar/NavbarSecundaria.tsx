@@ -9,7 +9,14 @@ export const NavbarSecundaria = () => {
     return (
         <div className="flex justify-end bg-green-500 h-10 items-center z-1">
 
-            <img src="/images/SigmaDomus.png" alt="SigmaDomus" className="w-70 h-auto absolute left-0.5 top--10" />
+            <div className="flex items-center flex-shrink-0">
+                <img
+                    src="/images/SigmaDomus.png"
+                    alt="SigmaDomus"
+                    className="h-auto w-70 max-w-[250px] object-contain"
+                />
+            </div>
+
             <FaPhoneAlt className="mr-2" />
             <span className="mr-10 text-white">Urgencias: (0800) SIGMADE / 7446233 </span>
             {/* Pacientes */}
