@@ -13,7 +13,7 @@ export const NavbarSecundaria = () => {
                 <img
                     src="/images/SigmaDomus.png"
                     alt="SigmaDomus"
-                    className="h-auto w-70 max-w-[250px] object-contain"
+                    className="h-auto w-70 max-w-[250px] object-contain mr-2"
                 />
             </div>
 

@@ -23,7 +23,7 @@ export const Navbar = () => {
         <img
           src="/images/LogoSigma-Domus.png"
           alt="LogoSigma-Domus"
-          className="cursor-pointer mt-6 mr-10 w-28 h-28 object-contain"
+          className="cursor-pointer mt-6 mr-0 w-28 h-28 object-contain"
         />
       </button>
 
@@ -135,8 +135,12 @@ export const Navbar = () => {
         <div className="absolute items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 bg-blue-400 shadow-md mt-1 z-10">
         </div>
       </div>
-      <a className="relative group inline-block p-2 " href="https://www.sdcash.net/">
-        <img src="/images/Logo-Cashea.png" alt="Logo-Cashea" className="cursor-pointer w-26 h-auto " />
+      <a className="relative group inline-block p-2 mt-18 hover:underline text-[12px] hover:text-cyan-700" href="/">
+        Iniciar Sesión
+      </a>
+      <p className="mt-18">|</p>
+      <a className="relative group inline-block p-2 mt-18 hover:underline text-[12px] hover:text-cyan-700" href="/">
+        Resgistrarse
       </a>
 
       {/*pop-up*/}
